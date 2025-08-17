@@ -49,7 +49,7 @@ cp -r ./mywal/* $mywal_dir
 echo "Создание виртуального окружения python для mywal..."
 mywal_venv="$mywal_dir/.venv"
 python3 -m venv "$mywal_venv"
-source "$mywal_nenv/bin/activate"
+source "$mywal_venv/bin/activate"
 pip install -r "$mywal_dir/requirements.txt"
 deactivate
 
