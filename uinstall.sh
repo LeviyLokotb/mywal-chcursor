@@ -6,7 +6,7 @@ rm  /usr/bin/chcursor
 rm  /usr/bin/mywal
 }
 
-function userinstall {
+function useruinstall {
 rm -rf $HOME/.local/share/chcursor
 rm -rf $HOME/.local/share/mywal
 rm  $HOME/.local/bin/chcursor
