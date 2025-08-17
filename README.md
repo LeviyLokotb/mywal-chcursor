@@ -1,4 +1,4 @@
-# chtheme v1.0
+# chtheme v0.1
 ## Change cursor theme from background colors
 
 `mywal` - defines the primary colors of an image (like a pywal)
@@ -12,13 +12,26 @@ Example:
 ```
 
 ---
-
-To system install:
-> Run "`install.sh`" as root
-
-To user install:
-> Run "`install.sh --user`"
+## Install
+* ### Clone repo: 
+```bash
+git clone https://github.com/LeviyLokotb/mywal-chcursor && cd mywal-chcursor
+```
+* ### Make files executable
+```bash
+chmod +x install.sh
+chmod +x uinstall.sh
+```
+* ### Run
+```bash
+./install.sh --user
+```
+to user install or
+```bash
+./install.sh
+```
+as root to system install
 
 ---
-* Use oreo cursor themes
+* Uses oreo cursor themes
 * for GNOME
